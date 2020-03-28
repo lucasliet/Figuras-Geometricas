@@ -11,8 +11,8 @@ public class Triangulo extends Poligono {
     @Override
     public double Perimetro() {
         double cat = super.getBase() / 2;
-        double hipotenusa = Math.pow(super.getAltura(), 2) + Math.pow(cat, 2);
-        return Math.pow(hipotenusa, 2) + super.getBase() * hipotenusa + hipotenusa * super.getBase();
+        double hipotenusa = Math.sqrt( Math.pow(super.getAltura(), 2) + Math.pow(cat, 2) );
+        return hipotenusa + hipotenusa + super.getBase();
     }
 
     @Override
