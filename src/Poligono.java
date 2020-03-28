@@ -24,15 +24,12 @@ public class Poligono extends Figura {
     }
 
     @Override
-    public String toString() {
-        return "Poligono{" +
-                "base=" + base +
-                ", altura=" + altura +
-                '}';
+    public double Area() {
+        return 0;
     }
 
     @Override
-    public double Area() {
+    public double Perimetro() {
         return 0;
     }
 }

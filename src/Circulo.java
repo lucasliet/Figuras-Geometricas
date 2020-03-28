@@ -9,4 +9,17 @@ public class Circulo extends Figura {
     public double Area() {
         return  Math.PI * Math.pow(this.raio, 2);
     }
+
+    @Override
+    public double Perimetro() {
+        return 2 * Math.PI * this.raio;
+    }
+
+    @Override
+    public String toString() {
+        return "Circulo{" +
+                "Area=" + Area() +
+                "Perimetro=" + Perimetro() +
+                '}';
+    }
 }

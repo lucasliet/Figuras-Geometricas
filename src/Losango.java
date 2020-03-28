@@ -8,4 +8,17 @@ public class Losango extends Poligono {
     public double Area() {
         return super.getBase() * super.getAltura();
     }
+
+    @Override
+    public double Perimetro() {
+        return 4 * super.getBase();
+    }
+
+    @Override
+    public String toString() {
+        return "Losango{" +
+                "Area=" + Area() +
+                "Perimetro=" + Perimetro() +
+                '}';
+    }
 }
