@@ -18,8 +18,8 @@ public class Triangulo extends Poligono {
     @Override
     public String toString() {
         return "Triangulo{" +
-                "Area=" + Area() +
-                "Perimetro=" + Perimetro() +
-                '}';
+                "\n" + String.format("%-11s %5.2f","Area:", Area() )+
+                "\n" + String.format("%-11s %5.2f","Perimetro:", Perimetro() )+
+                "\n}";
     }
 }

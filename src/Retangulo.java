@@ -22,9 +22,9 @@ public class Retangulo extends Poligono implements Diagonal {
     @Override
     public String toString() {
         return "Retangulo{" +
-                "Area=" + Area() +
-                "Diagonal=" + calcDiagonal() +
-                "Perimetro=" + Perimetro() +
-                '}';
+                "\n" + String.format("%-11s %5.2f","Area:", Area() )+
+                "\n" + String.format("%-11s %5.2f","Perimetro:", Perimetro() )+
+                "\n" + String.format("%-11s %5.2f","Diagonal:", calcDiagonal() )+
+                "\n}";
     }
 }

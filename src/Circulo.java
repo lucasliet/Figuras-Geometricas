@@ -18,8 +18,8 @@ public class Circulo extends Figura {
     @Override
     public String toString() {
         return "Circulo{" +
-                "Area=" + Area() +
-                "Perimetro=" + Perimetro() +
-                '}';
+                "\n" + String.format("%-11s %5.2f","Area:", Area() )+
+                "\n" + String.format("%-11s %5.2f","Perimetro:", Perimetro() )+
+                "\n}";
     }
 }

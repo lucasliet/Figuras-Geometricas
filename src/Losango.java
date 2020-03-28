@@ -17,8 +17,8 @@ public class Losango extends Poligono {
     @Override
     public String toString() {
         return "Losango{" +
-                "Area=" + Area() +
-                "Perimetro=" + Perimetro() +
-                '}';
+                "\n" + String.format("%-11s %5.2f","Area:", Area() )+
+                "\n" + String.format("%-11s %5.2f","Perimetro:", Perimetro() )+
+                "\n}";
     }
 }
