@@ -22,14 +22,4 @@ public class Poligono extends Figura {
     public void setAltura(double altura) {
         this.altura = altura;
     }
-
-    @Override
-    public double Area() {
-        return 0;
-    }
-
-    @Override
-    public double Perimetro() {
-        return 0;
-    }
 }
